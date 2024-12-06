@@ -25,7 +25,6 @@ socket.on("message" , (message , remoteInfo) => {
     
 })
 
-// socket.send("Hii my name is Kamlesh kumar" , 3000 , '192.168.19.153' )
 
 socket.bind(2000 , () => {
     const details = socket.address();
