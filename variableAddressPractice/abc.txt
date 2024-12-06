@@ -1,0 +1,7 @@
+console.log("Hello world!");
+
+const sum = (function (...params) {
+    return params.reduce((accumulator, currentValue) => accumulator + currentValue)
+})(12,34,45,67,89)
+
+console.log("sum of all number is : ",sum)
