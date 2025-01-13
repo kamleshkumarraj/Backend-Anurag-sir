@@ -6,7 +6,7 @@ const rl = readLine.createInterface({
     output: process.stdout
 })
 
-const clientSocket = net.createConnection({port : 2000 , host : '192.168.19.20'})
+const clientSocket = net.createConnection({port : 2000 , host : '192.168.189.20'})
 
 clientSocket.on('connect' , (data) => {
     console.log("Connected from server ...")

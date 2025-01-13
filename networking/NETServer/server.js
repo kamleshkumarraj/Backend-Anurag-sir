@@ -7,9 +7,6 @@ const rl = readLine.createInterface({
 })
 
 const server = net.createServer();
-
-
-
 server.listen(2000 , '0.0.0.0', () => {
     console.log(`Server is listening on port 2000`)
 })
